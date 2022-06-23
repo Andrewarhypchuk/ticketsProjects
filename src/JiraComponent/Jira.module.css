@@ -1,0 +1,78 @@
+.ticketStyle{
+    width:1000px;
+    height: 50px;
+    border:2px solid grey;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #161c34;
+    color:whitesmoke;
+    font-size: 15px;
+    margin:3px;
+    padding:10px;
+}
+.ticketItem{
+    margin-left: 45px;
+    height:20px;
+    text-align: center;
+    line-height: 20px;
+    padding: 2px;
+    border-radius: 3px;
+    border:1px solid grey;
+}
+.user{
+    width :46px;
+    height:46px;
+    border-radius: 50%;
+    border:1px solid grey;
+    margin-left: 50px;
+    text-align: center;
+    line-height: 46px;
+    font-size: 18px;
+}
+.container{
+    width:800px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.button{
+    width:90px;
+    height:40px;
+    border-radius: 5px;
+    background-color: #282c34;
+    font-size: 20px;
+    color:whitesmoke;
+    outline: none;
+}
+.boardContainer{
+    width:1200px;
+    min-height:300px;
+    border:2px solid #161c34;
+    padding:20px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+
+}
+.boardItem{
+    border-radius: 10px;
+   box-sizing: border-box;
+    padding: 5px;
+    border:2px solid #161c34;
+    width:350px;
+    margin:3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.progressItem{
+    width:90%;
+    height:100px;
+    border:1px solid #161c34;
+    border-radius: 3px;
+    margin:3px;
+    display: flex;
+    align-items:  center;
+}
